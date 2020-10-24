@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Copyright>Copyright © Sibies Soft</Copyright>
+    <Company>Sibies Soft</Company>
+    <Authors>Sibies Soft</Authors>
+    <PackageProjectUrl>www.sibies.ro</PackageProjectUrl>
+    <Description>Clinet .Net pentru serviciul de automatizare trimitere mesaje scurte bizpack.ro care permite trimiterea de SMS-uri si urmarirea stadiului de livrare a acestora. Prin intermediul acestui serviciu pot fi trimise SMS-uri catre
+orice numar de telefon mobil din retelele GSM nationale (Orange, Vodafone, Telekom, RDS&amp;RCS Digi
+Mobil) si catre numere de telefon apartinand operatorilor mobili internationali.</Description>
+    <PackageTags>orange bizpack</PackageTags>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>kay.pfx</AssemblyOriginatorKeyFile>
+    <PackageIcon>logo_rgb_small.png</PackageIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.ServiceModel.Duplex" Version="4.7.0" />
+    <PackageReference Include="System.ServiceModel.Http" Version="4.7.0" />
+    <PackageReference Include="System.ServiceModel.NetTcp" Version="4.7.0" />
+    <PackageReference Include="System.ServiceModel.Security" Version="4.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\logo_rgb_small.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
