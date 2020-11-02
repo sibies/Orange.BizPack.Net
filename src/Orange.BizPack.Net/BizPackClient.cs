@@ -12,10 +12,38 @@ namespace Orange.BizPack.Net
         private readonly SMSServicePortClient _smsClient;
         private readonly BizPackConfiguration _configuration;
 
+        /// <summary>
+        /// Folosit pentru <see cref="Ping"/>
+        /// </summary>
         static BizPackClient()
         {
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="username"></param>
+        /// <param name="authKey"></param>
+        public BizPackClient(string username, string authKey)
+        {
+            if (string.IsNullOrEmpty(username))
+                throw new ArgumentNullException(nameof(username));
+
+            if (string.IsNullOrEmpty(authKey))
+                throw new ArgumentNullException(nameof(authKey));
+
+            _configuration = new BizPackConfiguration
+            {
+                Username = username,
+                AuthKey = authKey
+            };
+        }
+
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="configuration"></param>
         public BizPackClient(BizPackConfiguration configuration)
         {
             if (string.IsNullOrEmpty(configuration.Username))
