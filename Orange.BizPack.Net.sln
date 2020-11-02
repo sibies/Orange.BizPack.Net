@@ -7,13 +7,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4D0835AE-5DB
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{DA39DEDE-0BD8-41E0-BFFD-141D11A7B1D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orange.BizPack.Net", "src\Orange.BizPack.Net\Orange.BizPack.Net.csproj", "{AC9EC845-5313-4B9E-A9F5-7A2C7897736A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Orange.BizPack.Net", "src\Orange.BizPack.Net\Orange.BizPack.Net.csproj", "{AC9EC845-5313-4B9E-A9F5-7A2C7897736A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orange.BizPack.Net.Tests", "test\Orange.BizPack.Net.Tests\Orange.BizPack.Net.Tests.csproj", "{4C534DE4-741F-4EAB-A46F-67C468849E87}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Orange.BizPack.Net.Tests", "test\Orange.BizPack.Net.Tests\Orange.BizPack.Net.Tests.csproj", "{4C534DE4-741F-4EAB-A46F-67C468849E87}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8D8F6488-5E19-4F96-B8AF-5E6AE4578014}"
 	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
 		logo_rgb_small.png = logo_rgb_small.png
+		README.md = README.md
 	EndProjectSection
 EndProject
 Global

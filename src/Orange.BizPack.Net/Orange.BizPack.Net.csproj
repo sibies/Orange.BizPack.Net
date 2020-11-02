@@ -7,14 +7,15 @@
     <Company>Sibies Soft</Company>
     <Authors>Sibies Soft</Authors>
     <PackageProjectUrl>www.sibies.ro</PackageProjectUrl>
-    <Description>Clinet .Net pentru serviciul de automatizare trimitere mesaje scurte bizpack.ro care permite trimiterea de SMS-uri si urmarirea stadiului de livrare a acestora. Prin intermediul acestui serviciu pot fi trimise SMS-uri catre
-orice numar de telefon mobil din retelele GSM nationale (Orange, Vodafone, Telekom, RDS&amp;RCS Digi
-Mobil) si catre numere de telefon apartinand operatorilor mobili internationali.</Description>
+    <Description>
+      Clinet .Net pentru serviciul de automatizare trimitere mesaje scurte bizpack.ro care permite trimiterea de SMS-uri si urmarirea stadiului de livrare a acestora. 
+      Prin intermediul acestui serviciu pot fi trimise SMS-uri catre orice numar de telefon mobil din retelele GSM nationale (Orange, Vodafone, Telekom, RDS&amp;RCS Digi Mobil) si catre numere de telefon apartinand operatorilor mobili internationali.    </Description>
     <PackageTags>orange bizpack</PackageTags>
-    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>kay.pfx</AssemblyOriginatorKeyFile>
     <PackageIcon>logo_rgb_small.png</PackageIcon>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
 
   <ItemGroup>
@@ -29,6 +30,10 @@ Mobil) si catre numere de telefon apartinand operatorilor mobili internationali.
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="..\..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
     <None Include="..\..\logo_rgb_small.png">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
