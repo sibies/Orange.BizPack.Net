@@ -14,7 +14,6 @@
     <PackageTags>orange bizpack</PackageTags>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <SignAssembly>true</SignAssembly>
-    <AssemblyOriginatorKeyFile>kay.pfx</AssemblyOriginatorKeyFile>
     <PackageIcon>logo_rgb_small.png</PackageIcon>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
